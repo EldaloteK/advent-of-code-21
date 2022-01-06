@@ -3,7 +3,7 @@ const fs = require('fs');
 let leastFuel = 0
 let leastFuelPartTwo = 0
 
-// Part 1
+// Part A
 function findLeastFuel(data) {
     let seen = false;
 
@@ -25,7 +25,7 @@ function findLeastFuel(data) {
     return leastFuel;
 }
 
-// Part 2
+// Part B
 function findLeastFuelPartTwo(data) {
     let seen = false;
 
